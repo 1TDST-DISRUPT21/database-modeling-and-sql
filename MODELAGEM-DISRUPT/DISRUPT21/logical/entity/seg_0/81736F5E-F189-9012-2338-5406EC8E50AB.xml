@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="81736F5E-F189-9012-2338-5406EC8E50AB" name="TB_PERSONAGEM">
+<createdBy>Fernando</createdBy>
+<createdTime>2020-11-11 23:38:58 UTC</createdTime>
+<ownerDesignName>DISRUPT21</ownerDesignName>
+<engineerTo>
+<item key="CB316D4D-E612-E632-33A2-8ABF849B21AF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="NOME" id="45CCE341-ED8A-1C5C-199C-B3082562F250">
+<createdBy>Fernando</createdBy>
+<createdTime>2020-11-11 23:39:07 UTC</createdTime>
+<ownerDesignName>DISRUPT21</ownerDesignName>
+<engineerTo>
+<item key="CB316D4D-E612-E632-33A2-8ABF849B21AF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PAPEL_FILME" id="E8E07AD7-60C2-ED8B-888A-EDAD42CAB5FA">
+<createdBy>Fernando</createdBy>
+<createdTime>2020-11-11 23:39:15 UTC</createdTime>
+<ownerDesignName>DISRUPT21</ownerDesignName>
+<engineerTo>
+<item key="CB316D4D-E612-E632-33A2-8ABF849B21AF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SOBRE" id="FB088EFA-2BE1-CD0C-C1CF-756A5CF03AAA">
+<createdBy>Fernando</createdBy>
+<createdTime>2020-11-11 23:39:40 UTC</createdTime>
+<ownerDesignName>DISRUPT21</ownerDesignName>
+<engineerTo>
+<item key="CB316D4D-E612-E632-33A2-8ABF849B21AF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="APARECIMENTO" id="D4582C78-F10C-5A0F-8528-2BF4486C3D1D">
+<createdBy>Fernando</createdBy>
+<createdTime>2020-11-11 23:39:51 UTC</createdTime>
+<ownerDesignName>DISRUPT21</ownerDesignName>
+<engineerTo>
+<item key="CB316D4D-E612-E632-33A2-8ABF849B21AF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="URL_AVATAR" id="8F3F8740-EADF-C77F-777D-3217E1109CE6">
+<createdBy>Fernando</createdBy>
+<createdTime>2020-11-11 23:39:59 UTC</createdTime>
+<ownerDesignName>DISRUPT21</ownerDesignName>
+<engineerTo>
+<item key="CB316D4D-E612-E632-33A2-8ABF849B21AF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B4A07DA7-002D-AC75-D963-43A5D2D19035" name="TB_FILME">
+<createdBy>Fernando</createdBy>
+<createdTime>2020-11-11 23:41:06 UTC</createdTime>
+<ownerDesignName>DISRUPT21</ownerDesignName>
+<engineerTo>
+<item key="CB316D4D-E612-E632-33A2-8ABF849B21AF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ACONTECIMENTOS" id="574D86FE-8DC1-FBEE-66C8-7214A920B179">
+<createdBy>Fernando</createdBy>
+<createdTime>2020-11-11 23:41:11 UTC</createdTime>
+<ownerDesignName>DISRUPT21</ownerDesignName>
+<engineerTo>
+<item key="CB316D4D-E612-E632-33A2-8ABF849B21AF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DATA_ACONTECIMENTO" id="F6F1FEEF-84D2-4382-AB27-11FE31F89F0E">
+<createdBy>Fernando</createdBy>
+<createdTime>2020-11-11 23:41:18 UTC</createdTime>
+<ownerDesignName>DISRUPT21</ownerDesignName>
+<engineerTo>
+<item key="CB316D4D-E612-E632-33A2-8ABF849B21AF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="INICIO_CENA" id="47824F33-C123-0E2F-E202-736DFDF1FEE8">
+<createdBy>Fernando</createdBy>
+<createdTime>2020-11-11 23:41:27 UTC</createdTime>
+<ownerDesignName>DISRUPT21</ownerDesignName>
+<engineerTo>
+<item key="CB316D4D-E612-E632-33A2-8ABF849B21AF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FIM_CENA" id="425C322B-D231-CD0B-002F-D590EFE4B796">
+<createdBy>Fernando</createdBy>
+<createdTime>2020-11-11 23:41:42 UTC</createdTime>
+<ownerDesignName>DISRUPT21</ownerDesignName>
+<engineerTo>
+<item key="CB316D4D-E612-E632-33A2-8ABF849B21AF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

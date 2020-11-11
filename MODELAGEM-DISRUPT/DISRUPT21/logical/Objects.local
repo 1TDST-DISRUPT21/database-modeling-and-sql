@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="B4A07DA7-002D-AC75-D963-43A5D2D19035" name="TB_FILME" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="0FBA912B-6578-5386-C5C2-DB58884EF46D" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="81736F5E-F189-9012-2338-5406EC8E50AB" name="TB_PERSONAGEM" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="0FBA912B-6578-5386-C5C2-DB58884EF46D" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="19D001BD-A111-3F47-1438-BDA2F5427451" name="TB_TEORIAS" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="0FBA912B-6578-5386-C5C2-DB58884EF46D" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Relation" objectID="548D9ABE-7873-D35A-14C0-E3280E7504A1" name="REL_FILME_PERSONAGEM" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="0FBA912B-6578-5386-C5C2-DB58884EF46D" propertySourceId="B4A07DA7-002D-AC75-D963-43A5D2D19035" propertyTargetId="81736F5E-F189-9012-2338-5406EC8E50AB"/>
+   <object objectType="Relation" objectID="B297FE84-847E-15AB-922B-360B5E25D266" name="REL_FILME_TEORIAS" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="0FBA912B-6578-5386-C5C2-DB58884EF46D" propertySourceId="B4A07DA7-002D-AC75-D963-43A5D2D19035" propertyTargetId="19D001BD-A111-3F47-1438-BDA2F5427451"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

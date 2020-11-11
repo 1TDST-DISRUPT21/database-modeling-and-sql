@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="REL_FILME_TEORIAS" directorySegmentName="seg_0" id="B297FE84-847E-15AB-922B-360B5E25D266">
+<createdBy>Fernando</createdBy>
+<createdTime>2020-11-11 23:42:39 UTC</createdTime>
+<ownerDesignName>DISRUPT21</ownerDesignName>
+<engineerTo>
+<item key="CB316D4D-E612-E632-33A2-8ABF849B21AF" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B4A07DA7-002D-AC75-D963-43A5D2D19035</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>19D001BD-A111-3F47-1438-BDA2F5427451</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

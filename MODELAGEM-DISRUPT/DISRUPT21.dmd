@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="DISRUPT21" id="9207A227-66A1-38C7-C747-80AC358C34CC" version="3.5">
+<createdBy>Fernando</createdBy>
+<createdTime>2020-11-11 23:34:00 UTC</createdTime>
+<ownerDesignName>DISRUPT21</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>9207A227-66A1-38C7-C747-80AC358C34CC</designId>
+</OSDM_Design>
